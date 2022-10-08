@@ -18,7 +18,12 @@
   "packages": [
     "gdm",
     "i3-wm",
+    "i3lock",
+    "i3status",
+    "dmenu",
     "fish",
+    "fd",
+    "ripgrep",
     "vim",
     "alacritty",
     "tmux",
@@ -28,6 +33,7 @@
     "jq",
     "network-manager-applet"
   ],
+  "services": ["gdm"],
   "profile": "xorg",
   "script": "guided",
   "swap": true,
