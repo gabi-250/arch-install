@@ -28,7 +28,7 @@
     "jq",
     "network-manager-applet"
   ],
-  "profile": "i3",
+  "profile": "xorg",
   "script": "guided",
   "swap": true,
   "sys-encoding": "utf-8",
