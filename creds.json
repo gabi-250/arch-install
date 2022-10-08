@@ -1,0 +1,8 @@
+{
+  "!users": [
+    {
+      "username": "__USERNAME__",
+      "sudo": true
+    }
+  ]
+}
