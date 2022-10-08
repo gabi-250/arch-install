@@ -35,6 +35,7 @@
   "sys-language": "en_US",
   "timezone": "Europe/London",
   "custom-commands": [
-    "./install-dotfiles.sh"
+    "git clone --bare https://github.com/gabi-250/dotfiles.git /home/__USERNAME__/.dotfiles",
+    "git --git-dir=/home/__USERNAME__/.dotfiles --work-tree=/home/__USERNAME__ checkout --force"
   ]
 }
