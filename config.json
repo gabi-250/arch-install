@@ -10,9 +10,14 @@
   ],
   "keyboard-layout": "us",
   "ntp": true,
+  "nic": {
+    "type": "nm",
+    "dns": ["1.1.1.1"]
+  },
   "gfx_driver": "All open-source (default)",
   "packages": [
     "gdm",
+    "xorg-xset",
     "i3-wm",
     "i3lock",
     "i3status",
