@@ -9,13 +9,8 @@
     "linux"
   ],
   "keyboard-layout": "us",
-  "mirror-region": {
-    "Worldwide": {
-      "https://mirror.rackspace.com/archlinux/$repo/os/$arch": true
-    }
-  },
   "ntp": true,
-  "gfx_driver": "VMware / VirtualBox (open-source)",
+  "gfx_driver": "All open-source (default)",
   "packages": [
     "gdm",
     "i3-wm",
