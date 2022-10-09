@@ -15,6 +15,7 @@
     }
   },
   "ntp": true,
+  "gfx_driver": "VMware / VirtualBox (open-source)",
   "packages": [
     "gdm",
     "i3-wm",
@@ -41,8 +42,7 @@
   "sys-language": "en_US",
   "timezone": "Europe/London",
   "custom-commands": [
-    "su __USERNAME__",
-    "git clone --bare https://github.com/gabi-250/dotfiles.git /home/__USERNAME__/.dotfiles",
-    "git --git-dir=/home/__USERNAME__/.dotfiles --work-tree=/home/__USERNAME__ checkout --force"
+    "sudo -u __USERNAME__ git clone --bare https://github.com/gabi-250/dotfiles.git /home/__USERNAME__/.dotfiles",
+    "sudo -u __USERNAME__ git --git-dir=/home/__USERNAME__/.dotfiles --work-tree=/home/__USERNAME__ checkout --force"
   ]
 }
